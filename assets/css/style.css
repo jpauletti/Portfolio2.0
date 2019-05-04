@@ -18,6 +18,19 @@ hr {
     height: 1px;
 }
 
+a {
+    color: #1261a0;
+}
+
+a:hover {
+    color: ;
+    opacity: 0.6;
+}
+
+.hide {
+    opacity: 0;
+}
+
 
 /* NAVIGATION */
 
@@ -91,8 +104,59 @@ background-color: #f5f5f5 !important;
 }
 
 
+.overlay {
+    position: absolute;
+    top: 24%;
+    text-align: center;
+    left: 12%;
+    background: darkgray;
+    padding: 30px;
+    transition: all 0.2s ease;
+}
+
+.overlay > a:first-of-type {
+    margin-bottom: 20px;
+}
+
+.overlay > a {
+    display: block;
+}
+
+.fa-code {
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #1261a0;
+}
+
+.fa-satellite-dish {
+    margin-right: 20px;
+    vertical-align: middle;
+    color: #1261a0;
+}
+
+.port-link {
+    vertical-align: middle;
+}
+
+
 
 /* CONTACT PAGE */
+
+.contact-box {
+    background: lightblue;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+.contact-box > a, .contact-box > i {
+    vertical-align: middle;
+}
+
+.contact-box > i {
+    margin-right: 10px;
+}
+
 input::placeholder {
     color: #495057;
     opacity: 0.6 !important;
