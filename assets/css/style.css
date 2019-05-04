@@ -23,8 +23,8 @@ a {
 }
 
 a:hover {
-    color: ;
-    opacity: 0.6;
+    /* color: ; */
+    opacity: 0.7;
 }
 
 .hide {
@@ -143,18 +143,23 @@ background-color: #f5f5f5 !important;
 /* CONTACT PAGE */
 
 .contact-box {
-    background: lightblue;
-    padding: 10px;
+    background: #1261a0;
+    padding: 15px 10px;
     width: 200px;
     margin: 10px;
 }
 
-.contact-box > a, .contact-box > i {
+.contact-box > i, .contact-box > span {
     vertical-align: middle;
+    color: white;
 }
 
 .contact-box > i {
     margin-right: 10px;
+}
+
+.box:hover {
+    opacity: 0.8;
 }
 
 input::placeholder {
@@ -177,4 +182,9 @@ input::placeholder {
 
 .profile-picture {
     border-radius: calc(.25rem - 1px);
+}
+
+.about-links {
+    letter-spacing: 1px;
+    font-weight: bold;
 }
