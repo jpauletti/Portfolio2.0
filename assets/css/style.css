@@ -22,7 +22,7 @@ a {
     color: #1261a0;
 }
 
-a:hover {
+a:not(.nav-link):hover {
     /* color: ; */
     opacity: 0.7;
 }
@@ -111,7 +111,7 @@ background-color: #f5f5f5 !important;
     left: 12%;
     background: darkgray;
     padding: 30px;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 .overlay > a:first-of-type {
@@ -146,12 +146,14 @@ background-color: #f5f5f5 !important;
     background: #1261a0;
     padding: 15px 10px;
     width: 200px;
+    /* width: 250px; */
     margin: 10px;
 }
 
 .contact-box > i, .contact-box > span {
     vertical-align: middle;
     color: white;
+    /* color: black; */
 }
 
 .contact-box > i {
@@ -187,4 +189,12 @@ input::placeholder {
 .about-links {
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+.about-icons i {
+    font-size: 35px;
+}
+
+.col-md-1 {
+    width: auto;
 }
